@@ -1,11 +1,9 @@
 wail2ban
 ========
 
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
-
-![Saddest Whale](http://i.imgur.com/NVlsY.png "Saddest Whale")
-
 wail2ban is a windows port of the basic functionality of [fail2ban](http://www.fail2ban.org/), and combining elements of [ts_block](https://github.com/EvanAnderson/ts_block). 
+
+Ready to use. Maintained and in active use.
 
 
 overview
