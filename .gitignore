@@ -1,0 +1,4 @@
+bannedIPLog.ini
+*.suo
+/log.txt
+/wail2ban_log.log
