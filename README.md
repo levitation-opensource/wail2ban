@@ -1,11 +1,10 @@
 wail2ban
 ========
 
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+Wail2ban is a Windows port of the basic functionality of [fail2ban](http://www.fail2ban.org/), and combining elements of [ts_block](https://github.com/EvanAnderson/ts_block). 
 
-![Saddest Whale](http://i.imgur.com/NVlsY.png "Saddest Whale")
+Ready to use. Maintained and in active use.
 
-wail2ban is a windows port of the basic functionality of [fail2ban](http://www.fail2ban.org/), and combining elements of [ts_block](https://github.com/EvanAnderson/ts_block). 
 
 
 overview
@@ -92,17 +91,13 @@ I've added a script that will grep the wail2ban log file, and generate some nice
 If you want to enable this, grok the main wail2ban.ps1 script for the call to `wail2ban_htmlgen.ps1`, and enable it (remove the comment)
 
 
-limitations
------------
+additional notes
+----------------
 
-There can be improvements relating to the service-like execution of this script, so it's always running. This can be acheieved using something like [non-sucking service manager](http://nssm.cc/), but that is left as an exercise for the reader. 
-
-Update 2020: There have been several on and off repo communications saying this code is still useful! I don't have any way to test the following, but hopefully the following may help: 
+Update 2020 (from the original repo): There have been several on and off repo communications saying this code is still useful! I don't have any way to test the following, but hopefully the following may help: 
  
  * Thanks to Marco Jonas, `BLOCK_TYPE` is set to `netsh`, which I presume still exists.
  * Thanks to Gl0, you can add SSL RDP Login support with [this patch](https://github.com/glasnt/wail2ban/pull/13/files)
- * Thanks to kentuckytech, add `-executionpolicy bypass -file` to the .bat file if you require a bypass.
-
 
 
 
