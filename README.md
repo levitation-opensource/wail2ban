@@ -102,3 +102,9 @@ Update 2020: There have been several on and off repo communications saying this 
  * Thanks to Marco Jonas, `BLOCK_TYPE` is set to `netsh`, which I presume still exists.
  * Thanks to Gl0, you can add SSL RDP Login support with [this patch](https://github.com/glasnt/wail2ban/pull/13/files)
  * Thanks to kentuckytech, add `-executionpolicy bypass -file` to the .bat file if you require a bypass.
+
+
+
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-351728-28/wail2ban/README.md?pixel)](https://github.com/igrigorik/ga-beacon)
